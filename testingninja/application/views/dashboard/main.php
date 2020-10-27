@@ -35,33 +35,38 @@
       <div class=" col-md-3 mt-2 bg-dark pr-3 pt-4">
         <ul class="nav flex-column ml-3 mb-4">
           <li class="nav-item">
-            <a class="nav-link active text-white" href="#"><i class="fas fa-columns mr-2"></i>Dashboard</a><hr class="bg-secondary">
+            <a class="nav-link text-white" href="#"><i class="fas fa-columns mr-2"></i>Dashboard</a><hr class="bg-secondary">
           </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Refer A Friend</a><hr class="bg-secondary">
+                <a class="nav-link text-white" href="#"><i class="far fa-plus-square mr-2"></i>Refer A Friend</a><hr class="bg-secondary">
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Friend List</a><hr class="bg-secondary">
+                <a class="nav-link text-white" href="#"><i class="far fa-address-card mr-2"></i>Friend List</a><hr class="bg-secondary">
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Commission</a><hr class="bg-secondary">
+                <a class="nav-link text-white" href="#"><i class="fas fa-dollar-sign mr-2"></i>Commission</a><hr class="bg-secondary">
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Setting</a><hr class="bg-secondary">
+                <a class="nav-link text-white" href="#"><i class="fas fa-cog mr-2"></i>Setting</a><hr class="bg-secondary">
               </li>
           </ul>
-        </div>
-        <div class="col-md-10 p-5 pt-2">
-          <div class="row">
-            <div class="card" style="width: 18rem;">
+      </div>
+      <div class="col-md-5 ml-5 p-5 pt-2">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 35rem;">
+            <img class="card-img-left" src="images/ninja-waving" alt="Card image cap">
               <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Hey, there!</h5>
+                <p class="card-text">Ready to add some friends?</p>
+                <a href="#" class="btn btn-danger float-right">Add Friend</a>
+                <a href="#" class="btn btn-dark mr-2 float-right">View Friend List</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
+     
     </div>
 
       <!-- Optional JavaScript; choose one of the two! -->
